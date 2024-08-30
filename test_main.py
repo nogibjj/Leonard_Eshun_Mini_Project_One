@@ -6,7 +6,6 @@ def test_add():
     assert add(2, 2) == 4
     assert add(3, 2) == 5
     print("hello")
-    pass
 
 
 def test_add2():
@@ -19,4 +18,3 @@ def test_add2():
 if __name__ == "__main__":
     test_add()
     test_add2()
-    pass
