@@ -8,7 +8,7 @@ def add(a, b):
 def get_the_capital_of_a_country(country: str) -> str:
     capital = ""
     # Open and read the JSON file
-    with open("country_capital.json", "r") as file:
+    with open(file="country_capital.json", mode="r", encoding="utf-8") as file:
         data = json.load(file)
         capital = (
             data[country.lower()]
