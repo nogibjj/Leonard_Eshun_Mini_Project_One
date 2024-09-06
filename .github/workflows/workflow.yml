@@ -10,7 +10,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: My Actions
+        uses: ./.github/actions/action.yml
       - name: install packages
         run: make install
       - name: format
