@@ -1,7 +1,0 @@
-name: My_Action_File
-description: Used to run tell GitHub to use my Dockerfile
-author: Leonard Eshun
-
-runs:
-  using: docker
-  image: Dockerfile
