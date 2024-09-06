@@ -14,20 +14,26 @@ The requirements are:
 1. Housed in a public version control Source Code Management Repository (SCM) repository (GitHub, GitLab, BitBucket, Gitea, etc.) 
 
 
-## This is what the python code does:
+
+## This is what the python code does
 It has two functions:
 
 1. **get_the_capital_of_a_country** to get the capital city of a country
+	```
 	get_the_capital_of_a_country(country: str) -> str
+	```
 1. **add** to add two numbers
+	```
 	add(a, a)
+	```
 
 
 > [!TIP]
 > Just clone the repository to your local machine or codespace and enjoy.
 
 
-## These are the steps followed:
+
+## Steps taken to meet the requirements
 The code was pushed to Github and Github Actions did the following main things:
 
 1. Setup the virtual environment according to the parameters in the workflow.yml
@@ -37,4 +43,4 @@ The code was pushed to Github and Github Actions did the following main things:
 1. Finally all the tests in the test_main.py were executed
 
 > [!IMPORTANT]
-> All the above steps had to be successful to get a completed CI.
+> All the above steps had to be successful to get a completed CI/CD.
